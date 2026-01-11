@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form assignment</title>
+</head>
+<body>
+   <fieldset style="width: 800px;">
+            <legend>Registration Details</legend>
+            <form>
+                <table>
+                <tr>
+                    <td align="right">
+                        University : 
+                    </td>
+                    <td>
+                        <input type="text" name="t1" value=""/>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td align="right">
+                        Institute : 
+                    </td>
+                    <td>
+                        <input type="text" name="t2" value=""/>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        Branch :
+                    </td>
+                    <td>
+                        <select>
+                            <option>--select--</option>
+                            <option>CSE</option>
+                            <option>IOT</option>
+                            <option>EE</option>
+                            <option>CE</option>
+                            <option>ME</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                        Degree :
+                    </td>
+                    <td>
+                       <select>
+                        <option>--select--</option>
+                        <option>B.Tech.</option>
+                        <option>M.Tech.</option>
+                       </select>
+                       <input type="radio" name="r1"/>Persuing
+                       <input type="radio" name="r1"/>Completed
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">
+                    Average CPI:
+                    </td>
+                    <td>
+                        <input type="number" name="n1"/><label>Upto</label>
+                        <input type="number" name="n2"/><label>Th Semester</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Experience :</td>
+                    <td>
+                        <input type="number" name="n3" max="100" required/>Years
+                    </td>
+                </tr>
+                <tr>
+                    <td>Your Website Or Blog:</td>
+                    <td>
+                        <input type="text" name="t3" placeholder="http://" required/>
+                    </td>
+                </tr>
+            </table>
+            </form>
+            
+    </fieldset>
+    <button type="submit">Submit</button>
+
+</body>
+</html>
